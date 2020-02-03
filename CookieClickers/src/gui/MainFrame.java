@@ -13,6 +13,9 @@ public class MainFrame extends JFrame implements Settings {
 		setSize(Settings.WIDTH, Settings.HEIGHT);
 		setResizable(Settings.RESIZABLE);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		add(frames.MenuFrame());
+		add(frames.SettingsFrame());
+		add(frames.GameFrame());
 	}
 	
 	public String getTitle() {
