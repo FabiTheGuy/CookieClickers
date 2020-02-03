@@ -1,12 +1,10 @@
 package gui;
 
-import java.awt.Component;
-
 import javax.swing.JFrame;
 
 public class MainFrame extends JFrame implements Settings {
 	
-	MenuFrame MenuFrame = new MenuFrame();
+	Frames frames = new Frames();
 	
 	private static final long serialVersionUID = 1L;
 	
@@ -15,7 +13,6 @@ public class MainFrame extends JFrame implements Settings {
 		setSize(Settings.WIDTH, Settings.HEIGHT);
 		setResizable(Settings.RESIZABLE);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		add(MenuFrame);
 	}
 	
 	public String getTitle() {
