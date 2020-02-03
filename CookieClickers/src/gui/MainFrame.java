@@ -1,16 +1,30 @@
 package gui;
 
+import java.awt.Component;
+
 import javax.swing.JFrame;
 
 public class MainFrame extends JFrame implements Settings {
-
+	
+	MenuFrame MenuFrame = new MenuFrame();
+	
 	private static final long serialVersionUID = 1L;
-
+	
 	public MainFrame() {
 		setVisible(Settings.VISIBILITY);
 		setSize(Settings.WIDTH, Settings.HEIGHT);
 		setResizable(Settings.RESIZABLE);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		add(MenuFrame);
+	}
+	
+	public String getTitle() {
+		String title = Settings.TITLE;
+		return (title);
+	}
+	
+	public void setTitle(String Title) {
+		Title = Settings.TITLE;
 	}
 	
 	public int getWidth() {
