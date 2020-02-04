@@ -10,7 +10,7 @@ public interface Settings {
 	public String TITLE = "Cookie-Clickers";
 	
 	//Frames Visibilities
-	public boolean MenuFrameVisibility = true;
+	public boolean MenuFrameVisibility = false;
 	public boolean SettingsFrameVisibility = false;
 	public boolean GameFrameVisibility = false;
 	

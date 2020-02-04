@@ -1,8 +1,5 @@
 package gui;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
@@ -43,14 +40,6 @@ public class Frames {
 		ResizableButtonTrue.setBounds(0, 0, 0, 0);
 		ResizableButtonFalse.setBounds(0, 0, 0, 0);
 		ApplySettingsButton.setBounds(0, 0, 0, 0);
-		
-		ResizableButtonTrue.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				controls.ControlsSettingsFrameSetResizableTrue();
-			}
-		});
-		
 		
 		SettingsPanel.add(WidthTextField);
 		SettingsPanel.add(HeightTextField);

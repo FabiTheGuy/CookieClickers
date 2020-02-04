@@ -16,6 +16,7 @@ public class MainFrame extends JFrame implements Settings {
 		add(frames.MenuFrame());
 		add(frames.SettingsFrame());
 		add(frames.GameFrame());
+		
 	}
 	
 	public String getTitle() {
