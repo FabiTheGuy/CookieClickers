@@ -18,6 +18,10 @@ public class Controls {
 		}
 	}
 	
+	public void ControlsSettingsFrameSetResizableFalse() {
+		
+	}
+	
 	public void ControlsGameFrame() {
 		
 	}

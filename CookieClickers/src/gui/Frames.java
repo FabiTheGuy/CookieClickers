@@ -51,6 +51,7 @@ public class Frames {
 			}
 		});
 		
+		
 		SettingsPanel.add(WidthTextField);
 		SettingsPanel.add(HeightTextField);
 		SettingsPanel.add(ResizableButtonTrue);
