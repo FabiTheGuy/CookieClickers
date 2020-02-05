@@ -1,6 +1,7 @@
 package gui;
 
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import controls.Controls;
@@ -16,7 +17,7 @@ public class Frames {
 		JButton exitButton = new JButton();
 		MenuPanel.setVisible(Settings.MenuFrameVisibility);
 		
-		startGameButton.setBounds(0,0,0,0);	//Noch eintragen!
+		startGameButton.setBounds(50,50,150,50);	//Noch eintragen!
 		settingsButton.setBounds(0, 0, 0, 0);
 		exitButton.setBounds(0, 0, 0, 0);
 		
@@ -51,6 +52,8 @@ public class Frames {
 	
 	public JPanel GameFrame() {
 		JPanel GamePanel = new JPanel();
+		JButton clickButton = new JButton();
+		JLabel scoreLabel = new JLabel();
 		GamePanel.setVisible(Settings.GameFrameVisibility);
 		
 		return (GamePanel);
